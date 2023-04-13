@@ -72,6 +72,7 @@ export default {
               <ul class="header-nav">
                   <li v-for="link in links" :class="link.current ? 'active' : ''">
                       <a :href="link.url">{{ link.text }}</a>
+                      <span class="underline"></span>
                   </li>
               </ul>
           </nav>
@@ -103,11 +104,16 @@ header {
       color: black;
       text-decoration: none;
     }
-      &.active,
-      &:hover {
-        background-color: lightblue;
+      &.active {
+        color: #0282F9;
+      }
+      &:hover a {
+        color: #0282F9;
+        padding-bottom: 59px;
+        border-bottom: 4px solid #0282F9;
       }
   }
 }
+
 
 </style>
