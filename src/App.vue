@@ -3,7 +3,7 @@
 import AppHeader from "./components/AppHeader.vue"
 import AppMain from "./components/AppMain.vue";
 import AppFeatures from "./components/AppFeatures.vue";
-// import AppFooter from "./components/AppFooter.vue";
+import AppFooter from "./components/AppFooter.vue";
 
 
 export default {
@@ -11,7 +11,7 @@ export default {
     AppHeader,
     AppMain,
     AppFeatures,
-    // AppFooter
+    AppFooter
   }
 }
 
@@ -21,6 +21,7 @@ export default {
   <AppHeader />
   <AppMain />
   <AppFeatures />
+  <AppFooter />
 
 </template>
 
