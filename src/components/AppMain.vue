@@ -7,9 +7,6 @@ export default {
 </script>
 
 
-
-
-
 <template>
 
 <main>
@@ -25,8 +22,6 @@ export default {
 </main>
 
 </template>
-
-
 
 
 <style scoped lang="scss">

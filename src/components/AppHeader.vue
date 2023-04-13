@@ -13,7 +13,7 @@ export default {
       {
         text: "COMICS",
         url: "#",
-        current: false
+        current: true
       },
       {
         text: "MOVIES",
@@ -103,6 +103,10 @@ header {
       color: black;
       text-decoration: none;
     }
+      &.active,
+      &:hover {
+        background-color: lightblue;
+      }
   }
 }
 
