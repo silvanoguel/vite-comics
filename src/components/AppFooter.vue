@@ -108,6 +108,10 @@ export default {
     }
 }
 
+// .footer-logo img {
+//     width: 600px;
+// }
+
 .footer-down {
     height: 180px;
     background-color: #303030;

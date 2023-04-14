@@ -5,13 +5,12 @@ import AppMain from "./components/AppMain.vue";
 import AppFeatures from "./components/AppFeatures.vue";
 import AppFooter from "./components/AppFooter.vue";
 
-
 export default {
   components: {
     AppHeader,
     AppMain,
     AppFeatures,
-    AppFooter
+    AppFooter,
   }
 }
 
