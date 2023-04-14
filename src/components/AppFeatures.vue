@@ -46,7 +46,7 @@ export default {
 .features {
     display: flex;
     align-items: center;
-    height: 180px;
+    padding: 60px;
     background-color: #0282F9;
     img {
         width: 50px;

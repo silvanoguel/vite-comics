@@ -100,7 +100,10 @@ export default {
             <main class="main-bg">           
                 <div class="row">
                     <HeroesCard v-for="(heroe, index) in heroes" :key="index" :image="heroe.thumb" :title="heroe.series" />
-                </div> 
+                </div>
+                <button>
+                    <h3>LOAD MORE</h3>
+                </button> 
             </main>
         </div>
         
@@ -131,5 +134,10 @@ main {
     padding: 3rem;
     text-align: center;
 }
-
+button {
+    border: none;
+    background-color: #0282F9;
+    color: white;
+    padding: 10px 40px;
+}
 </style>

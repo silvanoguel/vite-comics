@@ -8,7 +8,7 @@ export default {
 
 
 <template>
-    
+
 
     <footer>
 
@@ -73,23 +73,33 @@ export default {
                 </div>
 
                 <div class="footer-logo">
-
-                        <img src="../assets/img/dc-logo-bg.png" alt="">
-
+                    <img src="../assets/img/dc-logo-bg.png" alt="">
                 </div>
 
             </div>
- 
 
         </div>
 
 
         <div class="footer-down">
-
+            <div class="container">
+                <button><h3>SIGN-UP NOW !</h3></button>
+                <div class="follow">
+                    <div class="follow-text">
+                        <span>FOLLOW US</span>
+                    </div>
+                    <div class="follow-icons">
+                        <img src="../assets/img/footer-facebook.png" alt="">
+                        <img src="../assets/img/footer-twitter.png" alt="">
+                        <img src="../assets/img/footer-youtube.png" alt="">
+                        <img src="../assets/img/footer-pinterest.png" alt="">
+                        <img src="../assets/img/footer-periscope.png" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
-        
-    </footer>
 
+    </footer>
 
 </template>
 
@@ -107,16 +117,6 @@ export default {
         align-items: center;
     }
 }
-
-// .footer-logo img {
-//     width: 600px;
-// }
-
-.footer-down {
-    height: 180px;
-    background-color: #303030;
-}
-
 .footer-menu th {
     color: white;
     padding-right: 40px;
@@ -128,6 +128,35 @@ export default {
     color: #959595;
     padding-right: 40px;
 
+}
+.footer-down {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #303030;
+    z-index: 999;
+    position: relative;
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+button {
+    border: 2px solid #0282F9;
+    background-color: #303030;
+    color: white;
+    padding: 10px 30px;
+}
+
+.follow {
+    display: flex;
+    align-items: center;
+    &-text{
+        color: #0282F9;
+    }
+}
+.follow-icons img {
+    margin-left: 15px;
 }
 
 </style>
