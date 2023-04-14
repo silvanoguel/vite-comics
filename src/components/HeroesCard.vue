@@ -9,9 +9,9 @@ export default {
 </script>
 
 <template>
-    <div class="card" :class="type">
+    <div class="card">
         <img :src="image" alt="">
-        <h4>{{ title }}</h4>
+        <p>{{ title }}</p>
     </div>
 </template>
 
@@ -19,12 +19,19 @@ export default {
 <style lang="scss" scoped>
 
 .card {
-    width: calc(100% / 4 - 10px);
-    margin: 5px;
-    background-color: white;
-    padding: 10px;
-    h4 {
-        color: black;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 6 - 15px);
+    margin-right: 15px;
+    margin-bottom: 40px;
+    img {
+        width: 180px;
+        height: 180px;
+    }
+    p {
+        color: white;
+        text-align: left;
+        margin-top: 10px;
     }
 }
 </style>
